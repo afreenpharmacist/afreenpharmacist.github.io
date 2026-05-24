@@ -6,7 +6,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-1RPR19XQ6P');
 </script>
 <meta charset="UTF-8"/>
@@ -94,6 +93,8 @@ nav{position:sticky;top:0;z-index:100;background:rgba(10,22,40,0.97);border-bott
 .hd{color:#718096;font-size:0.8rem;line-height:1.7;}
 .contact-box{padding:44px;border:1px solid rgba(201,168,76,0.3);background:rgba(201,168,76,0.04);text-align:center;}
 .cbtn{display:inline-block;background:linear-gradient(135deg,#c9a84c,#e8c96a);color:#0a1628;padding:14px 32px;font-size:0.78rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;font-family:'Lato',sans-serif;text-decoration:none;margin-top:20px;word-break:break-all;}
+.medium-btn{display:inline-block;margin-top:40px;padding:14px 36px;border:1.5px solid #c9a84c;color:#c9a84c;font-size:0.78rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;font-family:'Lato',sans-serif;text-decoration:none;cursor:pointer;}
+.medium-btn:hover{background:#c9a84c;color:#0a1628;}
 footer{background:#060e1a;border-top:1px solid rgba(201,168,76,0.15);padding:40px 24px;text-align:center;}
 </style>
 </head>
@@ -144,19 +145,19 @@ footer{background:#060e1a;border-top:1px solid rgba(201,168,76,0.15);padding:40p
         <div class="c-exc">Kai baar koi aata hai prescription lekar. Haath thoda kaanpte hain. Par woh jo unsaid tha — woh counter pe reh jaata hai.</div>
         <div class="c-link">Read Article →</div>
       </div>
-      <div class="card" onclick="showArt(1)">
+      <div class="card" onclick="window.open('https://medium.com/@pharmacistafreen8994/%E0%A4%B5%E0%A4%B9-%E0%A4%96%E0%A4%BE%E0%A4%AE%E0%A5%8B%E0%A4%B6%E0%A5%80-%E0%A4%9C%E0%A5%8B-%E0%A4%AE%E0%A5%88%E0%A4%82%E0%A4%A8%E0%A5%87-%E0%A4%95%E0%A4%BE%E0%A4%89%E0%A4%82%E0%A4%9F%E0%A4%B0-%E0%A4%95%E0%A5%87-%E0%A4%AA%E0%A5%80%E0%A4%9B%E0%A5%87-%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A5%80-f6bf24231e47','_blank')">
         <div class="c-flag">🇮🇳</div>
         <div class="c-meta">Hindi · अवसाद · May 2026</div>
         <div class="c-title">वह खामोशी जो मैंने काउंटर के पीछे देखी</div>
         <div class="c-exc">कभी-कभी कोई पर्ची लेकर आता है। हाथ थोड़े काँपते हैं। पर जो अनकहा था — वह काउंटर पर ही रह जाता है।</div>
-        <div class="c-link">Read Article →</div>
+        <div class="c-link">Read Full Article on Medium →</div>
       </div>
-      <div class="card" onclick="showArt(2)">
+      <div class="card" onclick="window.open('https://medium.com/@pharmacistafreen8994/the-silence-i-witnessed-behind-the-counter-0dc3e13d7f99','_blank')">
         <div class="c-flag">🌍</div>
         <div class="c-meta">English · Depression · May 2026</div>
         <div class="c-title">The Silence I Witnessed Behind the Counter</div>
         <div class="c-exc">Sometimes, someone walks in with a prescription. Hands trembling slightly. Eyes carrying a tiredness that sleep couldn't fix.</div>
-        <div class="c-link">Read Article →</div>
+        <div class="c-link">Read Full Article on Medium →</div>
       </div>
     </div>
   </div>
@@ -219,11 +220,64 @@ footer{background:#060e1a;border-top:1px solid rgba(201,168,76,0.15);padding:40p
       <div class="sec-tag">Published Articles</div>
       <div class="h1-med">The Blog</div>
       <p class="sub-gray">One story. Three languages. Universal truth.</p>
-      <div class="cgrid" style="text-align:left">
-        <div class="card" onclick="showArt(0)"><div class="c-flag">🗣️</div><div class="c-meta">Hinglish · May 2026 · 5 min read</div><div class="c-title">Woh Khamoshi Jo Maine Counter Ke Peeche Dekhi</div><div class="c-exc">Kai baar koi aata hai prescription lekar. Haath thoda kaanpte hain. Par woh jo unsaid tha — woh counter pe reh jaata hai.</div><div class="c-link">Read Full Article →</div></div>
-        <div class="card" onclick="showArt(1)"><div class="c-flag">🇮🇳</div><div class="c-meta">Hindi · May 2026 · 5 min read</div><div class="c-title">वह खामोशी जो मैंने काउंटर के पीछे देखी</div><div class="c-exc">कभी-कभी कोई पर्ची लेकर आता है। हाथ थोड़े काँपते हैं। पर जो अनकहा था — वह काउंटर पर ही रह जाता है।</div><div class="c-link">Read Full Article →</div></div>
-        <div class="card" onclick="showArt(2)"><div class="c-flag">🌍</div><div class="c-meta">English · May 2026 · 5 min read</div><div class="c-title">The Silence I Witnessed Behind the Counter</div><div class="c-exc">Sometimes, someone walks in with a prescription. Hands trembling slightly. Eyes carrying a tiredness that sleep couldn't fix.</div><div class="c-link">Read Full Article →</div></div>
+
+      <!-- SERIES 1 -->
+      <div style="text-align:left;margin-bottom:12px;">
+        <span style="font-size:0.65rem;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;border:1px solid rgba(201,168,76,0.4);padding:4px 12px;">Series 1 — The Silence Behind the Counter</span>
       </div>
+      <div class="cgrid" style="text-align:left;margin-bottom:48px;">
+        <div class="card" onclick="showArt(0)">
+          <div class="c-flag">🗣️</div>
+          <div class="c-meta">Hinglish · May 2026 · 5 min read</div>
+          <div class="c-title">Woh Khamoshi Jo Maine Counter Ke Peeche Dekhi</div>
+          <div class="c-exc">Kai baar koi aata hai prescription lekar. Haath thoda kaanpte hain. Par woh jo unsaid tha — woh counter pe reh jaata hai.</div>
+          <div class="c-link">Read Full Article →</div>
+        </div>
+        <div class="card" onclick="window.open('https://medium.com/@pharmacistafreen8994/%E0%A4%B5%E0%A4%B9-%E0%A4%96%E0%A4%BE%E0%A4%AE%E0%A5%8B%E0%A4%B6%E0%A5%80-%E0%A4%9C%E0%A5%8B-%E0%A4%AE%E0%A5%88%E0%A4%82%E0%A4%A8%E0%A5%87-%E0%A4%95%E0%A4%BE%E0%A4%89%E0%A4%82%E0%A4%9F%E0%A4%B0-%E0%A4%95%E0%A5%87-%E0%A4%AA%E0%A5%80%E0%A4%9B%E0%A5%87-%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A5%80-f6bf24231e47','_blank')">
+          <div class="c-flag">🇮🇳</div>
+          <div class="c-meta">Hindi · May 2026 · 5 min read</div>
+          <div class="c-title">वह खामोशी जो मैंने काउंटर के पीछे देखी</div>
+          <div class="c-exc">कभी-कभी कोई पर्ची लेकर आता है। हाथ थोड़े काँपते हैं। पर जो अनकहा था — वह काउंटर पर ही रह जाता है।</div>
+          <div class="c-link">Read Full Article on Medium →</div>
+        </div>
+        <div class="card" onclick="window.open('https://medium.com/@pharmacistafreen8994/the-silence-i-witnessed-behind-the-counter-0dc3e13d7f99','_blank')">
+          <div class="c-flag">🌍</div>
+          <div class="c-meta">English · May 2026 · 5 min read</div>
+          <div class="c-title">The Silence I Witnessed Behind the Counter</div>
+          <div class="c-exc">Sometimes, someone walks in with a prescription. Hands trembling slightly. Eyes carrying a tiredness that sleep couldn't fix.</div>
+          <div class="c-link">Read Full Article on Medium →</div>
+        </div>
+      </div>
+
+      <!-- SERIES 2 -->
+      <div style="text-align:left;margin-bottom:12px;">
+        <span style="font-size:0.65rem;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;border:1px solid rgba(201,168,76,0.4);padding:4px 12px;">Series 2 — 5 Signs of Depression</span>
+      </div>
+      <div class="cgrid" style="text-align:left;margin-bottom:48px;">
+        <div class="card" onclick="showArt(1)">
+          <div class="c-flag">🗣️</div>
+          <div class="c-meta">Hinglish · May 2026 · 6 min read</div>
+          <div class="c-title">5 Signs of Depression Jo Hum Normal Life Samajh Ke Ignore Karte Hain</div>
+          <div class="c-exc">Meri pharmacy mein ek baar ek insaan aaya. Hansta hua. Phir prescription de di — antidepressants ki.</div>
+          <div class="c-link">Read Full Article →</div>
+        </div>
+        <div class="card" style="opacity:0.5;cursor:default;">
+          <div class="c-flag">🇮🇳</div>
+          <div class="c-meta">Hindi · Coming Soon</div>
+          <div class="c-title">अवसाद के 5 संकेत — जल्द आ रहा है</div>
+          <div class="c-exc">Hindi version coming soon...</div>
+          <div class="c-link" style="color:#718096;">Coming Soon</div>
+        </div>
+        <div class="card" style="opacity:0.5;cursor:default;">
+          <div class="c-flag">🌍</div>
+          <div class="c-meta">English · Coming Soon</div>
+          <div class="c-title">5 Signs of Depression We Dismiss As Just Life</div>
+          <div class="c-exc">English version coming soon...</div>
+          <div class="c-link" style="color:#718096;">Coming Soon</div>
+        </div>
+      </div>
+
+      <a href="https://medium.com/@pharmacistafreen8994" target="_blank" class="medium-btn">Follow on Medium →</a>
     </div>
   </div>
 </div>
@@ -313,77 +367,44 @@ var arts = [
     ]
   },
   {
-    meta:"🇮🇳 Hindi · अवसाद · May 2026 · 5 min read",
-    title:"वह खामोशी जो मैंने काउंटर के पीछे देखी",
-    sub:"एक फार्मासिस्ट की नज़र से — जो हम देखते हैं, पर कह नहीं पाते",
+    meta:"🗣️ Hinglish · Depression · May 2026 · 6 min read",
+    title:"5 Signs of Depression Jo Hum Normal Life Samajh Ke Ignore Karte Hain",
+    sub:"Ek Pharmacist Ki Nazar Se",
     body:[
-      "कभी-कभी कोई पर्ची लेकर आता है।",
-      "हाथ थोड़े काँपते हैं। आँखें थकी हुई। \"भाई ने भेजा है\" — यह कहकर एक पल रुक जाते हैं, जैसे कुछ और कहना चाहते हों।",
-      "मैं दवाई देती हूँ। खुराक समझाती हूँ। वे चले जाते हैं।",
-      "पर जो अनकहा था — वह काउंटर पर ही रह जाता है।",
+      "Meri pharmacy mein ek baar ek insaan aaya.",
+      "Hansta hua. Bata raha tha ke kaam kaisa chal raha hai, ghar mein sab theek hai. Phir prescription de di — antidepressants ki.",
+      "Maine pooch liya — \"Kab se le rahe hain?\"",
+      "\"Ek saal se,\" unhone kaha. \"Par kisi ko nahi pata.\"",
+      "Ek saal. Akele.",
       "---",
-      "फार्मासिस्ट होने का मतलब सिर्फ दवा देना नहीं होता।",
-      "हमारी पढ़ाई में अणु होते हैं, दवाओं के बीच प्रतिक्रियाएँ होती हैं, सावधानियाँ होती हैं। पर कोई नहीं सिखाता कि जब कोई Sertraline की पहली पत्ती लेते हुए रो पड़े — तो क्या कहें।",
-      "और मैं यह इसलिए नहीं लिख रही कि मैं कोई नायिका हूँ। मैं इसलिए लिख रही हूँ क्योंकि मुझे बहुत देर लगी यह समझने में — कि वह दवा नहीं, इंसान था।",
+      "Yahi woh lamha tha jab mujhe ehsaas hua — depression hamesha woh nahi hota jo hum sochte hain.",
+      "Toh aaj main tumhe woh 5 signs batana chahti hun — jo hum ignore karte hain. Jo hum 'bas thakaan hai' ya 'life aisi hi hoti hai' keh ke bhool jaate hain.",
       "---",
-      "अवसाद का चेहरा वह नहीं होता जो हम सोचते हैं।",
-      "वह अकेला, अँधेरे कमरे में बैठा इंसान नहीं होता हमेशा। वह सुबह दफ्तर जाता है, बच्चों को स्कूल छोड़कर आता है, व्हाट्सएप पर मुस्कुराता है — और रात को बिना पर्ची के नींद की दवा माँगता है।",
-      "यही वे लोग हैं जो मेरे काउंटर पर आते हैं।",
+      "Sign 1 — Thakaan Jo Neend Se Nahi Jaati",
+      "Tum 8 ghante soye. Phir bhi subah uthne ka mann nahi.",
+      "Yeh brain ki thakaan hai. Jab serotonin aur dopamine kaam nahi karte properly, toh body physically exhausted feel karti hai.",
       "---",
-      "एक दिन एक आंटी आई थीं। साथ में तीन शॉपिंग बैग। लिपस्टिक ताज़ी। वह बिल्कुल ठीक लग रही थीं।",
-      "उन्होंने एक पर्ची दी — Escitalopram 10mg।",
-      "फिर धीरे से बोलीं, \"यह किसी को नहीं बताना बेटा।\"",
-      "मैं रुक गई। वह एक दवाई नहीं छुपाना चाहती थीं — वह अपनी तकलीफ छुपाना चाहती थीं। क्योंकि हमारे यहाँ अवसाद को कमज़ोरी कहते हैं।",
-      "मैंने उन्हें दवाई दी। साथ में सिर्फ इतना कहा — \"आंटी, यह लेना हिम्मत की निशानी है।\"",
-      "उनकी आँखें भर आईं।",
+      "Sign 2 — Jo Cheezein Achhi Lagti Thi — Ab Nahi Lagti",
+      "Tumhara favorite show. Tumhari favorite dish. Doston ke saath baithna. Sab kuch flat lagta hai.",
+      "Iska naam hai Anhedonia — depression ka sabse bada aur sabse chhupa hua sign.",
       "---",
-      "फार्मासिस्ट के पास एक अनोखी स्थिति होती है। डॉक्टर से ज़्यादा सुलभ। थेरेपिस्ट से ज़्यादा नियमित मिलना। कोई अपॉइंटमेंट नहीं लगती।",
-      "इसलिए हम वे लोग होते हैं जिन्हें पहले पता चलता है — कि कुछ ठीक नहीं है। यही मुझे बदलना है। अपनी लेखनी से। अपनी आवाज़ से।",
+      "Sign 3 — Choti Choti Baaton Pe Gussa Ya Rona",
+      "Koi chhoti si baat — aur aankhein bhar aati hain. Ya gussa aa jaata hai.",
+      "Yeh nervous system ka overload hai. Sensitivity badh jaana — ek sign hai. Kamzori nahi.",
       "---",
-      "अगर आप यह पढ़ रहे हैं और खुद कुछ ऐसा महसूस कर रहे हैं — थकान जो नींद से नहीं जाती, खुशी जो कारण होने के बावजूद नहीं आती — तो कृपया:",
-      "यह कमज़ोरी नहीं है। यह मस्तिष्क की रसायन विज्ञान है। यह एक चिकित्सीय स्थिति है। और इसका इलाज होता है।",
+      "Sign 4 — Khud Ko Sab Se Door Karna",
+      "WhatsApp pe 'Seen' karte ho — reply nahi karte. Plans cancel karte ho.",
+      "Yeh withdrawal depression ka bahut common sign hai.",
       "---",
-      "मैं अफरीन हूँ। एक फार्मासिस्ट। और अब एक लेखिका।",
-      "क्योंकि काउंटर के पीछे से जो मुझे दिखता है — वह दुनिया को दिखना चाहिए।",
+      "Sign 5 — 'Sab Theek Hai' — Par Andar Kuch Nahi Hai",
+      "Yeh sabse dangerous sign hai. Tum hasty ho. Kaam karte ho. Sab normal lagta hai bahar se.",
+      "Par andar — ek khaali pan hai. Na khushi, na dukh. Sirf numbness.",
       "---",
-      "अगली पोस्ट में: अवसाद के वे 5 संकेत जिन्हें हम सामान्य जीवन समझकर नज़रअंदाज़ करते हैं।"
-    ]
-  },
-  {
-    meta:"🌍 English · Depression · May 2026 · 5 min read",
-    title:"The Silence I Witnessed Behind the Counter",
-    sub:"A Pharmacist's Perspective on Depression — What We See But Never Say",
-    body:[
-      "Sometimes, someone walks in with a prescription.",
-      "Hands trembling slightly. Eyes carrying a tiredness that sleep couldn't fix. They say \"My brother sent me\" — and then pause for just a moment, as if there's something more they want to say.",
-      "I hand over the medicine. Explain the dosage. They leave.",
-      "But what remained unspoken — stays behind on the counter.",
+      "Agar Yeh 5 Mein Se Koi Bhi Tumhara Hai —",
+      "Yeh weakness nahi hai. Yeh character flaw nahi hai. Yeh ek medical condition hai. Aur is ka ilaaj hota hai.",
+      "Pehla qadam — kisi ek insaan ko batao. Doctor, pharmacist, koi bhi trusted insaan.",
       "---",
-      "Being a pharmacist means more than dispensing medicine.",
-      "Our training covers molecules, drug interactions, contraindications. But nobody teaches you what to say when someone breaks down picking up their first strip of Sertraline.",
-      "I'm not writing this because I'm a hero. I'm writing this because it took me far too long to realize — that wasn't just a patient. That was a person.",
-      "---",
-      "Depression doesn't look the way we imagine it does.",
-      "It's not always the person alone in a dark room. It's the person who shows up to work every morning, drops their kids to school and smiles, posts cheerful updates on social media — and quietly asks for sleeping pills without a prescription.",
-      "These are the people who come to my counter.",
-      "---",
-      "One day, an aunty walked in. Three shopping bags in hand. Fresh lipstick. She looked perfectly fine — the kind of fine that takes effort to maintain.",
-      "She handed me a prescription — Escitalopram 10mg.",
-      "Then, almost in a whisper, she said: \"Please don't tell anyone, beta.\"",
-      "I stopped. She wasn't trying to hide a medicine. She was trying to hide her pain. Because in our society, depression is seen as weakness.",
-      "I gave her the medicine. And said just one thing — \"Aunty, the fact that you're here takes courage.\"",
-      "Her eyes filled with tears.",
-      "---",
-      "Pharmacists occupy a unique space in healthcare. More accessible than doctors. More frequently encountered than therapists. No appointment needed.",
-      "That's why we are often the ones who notice first — that something isn't right. That's what I want to change. Through my words. Through my voice.",
-      "---",
-      "If you're reading this and something resonates — the exhaustion that sleep doesn't cure, the joy that doesn't come even when it should — please know:",
-      "This is not weakness. This is brain chemistry. This is a medical condition. And it can be treated.",
-      "---",
-      "I am Afreen. A pharmacist. And now, a writer.",
-      "Because what I see from behind this counter — the world deserves to see too.",
-      "---",
-      "Next: 5 signs of depression we dismiss as just life — and why we shouldn't."
+      "Main Afreen hun. Ek pharmacist. Ek writer. Aur woh insaan jo counter ke peeche se dekh sakti hai — ke tum theek nahi ho. Aur yeh bilkul okay hai."
     ]
   }
 ];
