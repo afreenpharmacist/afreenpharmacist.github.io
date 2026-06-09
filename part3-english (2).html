@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>When Depression Wears a Mask – Afreen, The Licensed Pharmacist</title>
+<meta name="description" content="5 reasons depression stays hidden — and what helps. A Pharmacist's Perspective. Part 3 of the Depression Awareness Series.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --black: #0a0a0a;
+    --white: #ffffff;
+    --cream: #faf5f0;
+    --soft: #f7f0eb;
+    --muted: #8a8500;
+    --accent: #d4ba41;
+    --gold: #c9a84c;
+    --navy: #0d1b2a;
+    --navy2: #112240;
+    --navy3: #1a2f4a;
+    --border: #1e3a5f;
+    --text: #ccd6f6;
+    --text-dim: #8892b0;
+  }
+
+  body {
+    font-family: 'Georgia', serif;
+    background: var(--navy);
+    color: var(--text);
+    line-height: 1.8;
+  }
+
+  /* NAV */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 2.5rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--navy);
+  }
+  .nav-brand {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--gold);
+    letter-spacing: 0.03em;
+  }
+  .nav-brand span {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-left: 0.5rem;
+    font-style: italic;
+  }
+  .nav-links a {
+    margin-left: 1.8rem;
+    text-decoration: none;
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    transition: color 0.2s;
+  }
+  .nav-links a:hover, .nav-links a.active {
+    color: var(--gold);
+  }
+
+  /* HERO */
+  .hero {
+    max-width: 760px;
+    margin: 4rem auto 0;
+    padding: 0 2rem;
+  }
+  .series-tag {
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1.2rem;
+  }
+  h1 {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    color: var(--white);
+  }
+  .subtitle {
+    font-size: 1.05rem;
+    color: var(--text-dim);
+    font-style: italic;
+    margin-bottom: 1.5rem;
+  }
+  .meta {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    letter-spacing: 0.06em;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 0.6rem 0;
+    margin-bottom: 3rem;
+  }
+
+  /* BODY */
+  .article-body {
+    max-width: 760px;
+    margin: 0 auto 6rem;
+    padding: 0 2rem;
+    font-size: 1.05rem;
+    color: var(--text);
+  }
+  .article-body p {
+    margin-bottom: 1.5rem;
+  }
+
+  .opening {
+    font-style: italic;
+    font-size: 1.1rem;
+    border-left: 3px solid var(--gold);
+    padding-left: 1.2rem;
+    margin-bottom: 2.2rem;
+    color: var(--cream);
+    line-height: 2;
+  }
+
+  .divider {
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: var(--border);
+    margin: 2rem 0;
+    font-size: 0.85rem;
+  }
+
+  .section-title {
+    font-size: 0.72rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--gold);
+    margin: 2.5rem 0 2rem;
+    font-weight: bold;
+  }
+
+  /* REASON CARDS */
+  .reason {
+    background: var(--navy2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .reason h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--white);
+  }
+  .reason p {
+    color: var(--text);
+    margin-bottom: 1rem;
+  }
+  .reason .truth {
+    background: var(--navy3);
+    border-left: 3px solid var(--gold);
+    padding: 0.9rem 1.1rem;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: var(--cream);
+    margin-top: 0.5rem;
+  }
+
+  /* NOTE BOX */
+  .note-box {
+    border: 1px solid var(--gold);
+    padding: 2rem;
+    margin: 3rem 0;
+    background: var(--navy2);
+    border-radius: 6px;
+  }
+  .note-box h3 {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.05em;
+    color: var(--gold);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+  .note-box p {
+    color: var(--text);
+    margin-bottom: 1rem;
+  }
+  .note-box strong {
+    color: var(--white);
+  }
+
+  /* TAGS */
+  .tags {
+    margin-top: 2.5rem;
+  }
+  .tags span {
+    display: inline-block;
+    font-size: 0.72rem;
+    background: var(--navy3);
+    color: var(--gold);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    margin: 0.25rem;
+    letter-spacing: 0.04em;
+  }
+
+  /* BACK LINK */
+  .back-link {
+    display: inline-block;
+    margin: 2.5rem 0 1rem;
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+  .back-link:hover { color: var(--gold); }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    border-top: 1px solid var(--border);
+    background: var(--navy);
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html">Afreen <span>The Licensed Pharmacist</span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#portfolio">Portfolio</a>
+    <a href="index.html#blog" class="active">Blog</a>
+    <a href="index.html#hire">Hire Me</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="series-tag">English &nbsp;·&nbsp; Depression Awareness Series — Part 3 &nbsp;·&nbsp; 3 min read</div>
+  <h1>When Depression Wears a Mask</h1>
+  <div class="subtitle">5 Things We Say Instead of "I'm Not Okay"</div>
+  <div class="meta">By Afreen &nbsp;|&nbsp; A Pharmacist's Perspective &nbsp;|&nbsp; Part 3 of the Depression Awareness Series</div>
+</div>
+
+<div class="article-body">
+
+  <div class="opening">
+    Once, a young woman came to my pharmacy counter.<br>
+    She was well-dressed, soft-spoken, smiling.<br>
+    She handed me a prescription for antidepressants and said, casually, "It's just for sleep."<br><br>
+    It wasn't just for sleep.
+  </div>
+
+  <p>That is what depression does. It teaches us to explain itself away. To make it sound smaller. To make ourselves sound fine — even when nothing is fine.</p>
+
+  <p>In Part 1, we named the signs we mistake for personality. In Part 2, we looked at the sentences we use when we cannot say the real thing. Today — Part 3 — we go deeper. Because recognizing depression is only half the work. The harder half is understanding why it stays hidden for so long.</p>
+
+  <div class="divider">━━━━━━━━━━━━━━━━━━━━━━━</div>
+  <div class="section-title">5 Reasons Depression Stays Hidden — And What Helps</div>
+  <div class="divider">━━━━━━━━━━━━━━━━━━━━━━━</div>
+
+  <div class="reason">
+    <h2>1. We have been taught that suffering in silence is strength</h2>
+    <p>In most Indian families, emotional pain is private. You do not cry in front of others. You do not say "I am struggling." You carry it. And when you carry it long enough, the carrying becomes your identity.</p>
+    <p>But silence is not strength. It is just loneliness wearing a better name.</p>
+    <div class="truth">The truth: Asking for help is one of the most pharmacologically sound things you can do. The brain heals faster with connection than in isolation. This is not poetry — it is neuroscience.</div>
+  </div>
+
+  <div class="reason">
+    <h2>2. We are afraid of the label "depression"</h2>
+    <p>The word itself feels like a verdict. As if saying "I have depression" means something permanent. Something shameful. Something that will follow you.</p>
+    <p>But depression is a clinical diagnosis — not a character judgment. It changes nothing about who you are. It only explains why things have felt harder than they should.</p>
+    <div class="truth">The truth: Naming a condition is the first step to treating it. You cannot medicate, manage, or heal something you refuse to acknowledge.</div>
+  </div>
+
+  <div class="reason">
+    <h2>3. We wait for things to "get bad enough"</h2>
+    <p>We tell ourselves: "It's not that serious. I'm still functioning. I still go to work. I haven't hit rock bottom."</p>
+    <p>But depression does not require rock bottom as a prerequisite for care. You do not wait until a cavity becomes a root canal to see a dentist. You do not wait for a blood pressure of 180 to start medication. Mental health deserves the same early, preventive attention.</p>
+    <div class="truth">The truth: Mild symptoms treated early lead to far better outcomes than severe symptoms treated late.</div>
+  </div>
+
+  <div class="reason">
+    <h2>4. We do not know what "getting help" even looks like</h2>
+    <p>Many people want to reach out — but they do not know where. A psychiatrist feels too serious. A counsellor feels too expensive. Telling a family member feels too complicated.</p>
+    <p>So they do nothing. And doing nothing is the most expensive option of all.</p>
+    <div class="truth">The truth: Getting help can start as small as calling a helpline. Typing a message to your doctor. Searching for a government mental health center near you. One step. Just one.</div>
+  </div>
+
+  <div class="reason">
+    <h2>5. We are afraid of what we will find if we look inside</h2>
+    <p>This is the most honest reason of all. If I acknowledge the sadness — what if it is too big? What if it does not have a fix? What if looking at it makes it worse?</p>
+    <p>But the opposite is true. Depression grows largest in the dark. It shrinks — slowly, with support — when it is finally seen.</p>
+    <div class="truth">The truth: You will not fall apart by acknowledging what you feel. You will, for the first time, give it a chance to heal.</div>
+  </div>
+
+  <div class="divider">━━━━━━━━━━━━━━━━━━━━━━━</div>
+
+  <div class="note-box">
+    <h3>A Note From Your Pharmacist</h3>
+    <p>I am not just a person who counts tablets and reads prescriptions.</p>
+    <p>I am someone who stands at the intersection of medicine and the moments people have before they find their words.</p>
+    <p>If you are reading this and you see yourself here — that is not a coincidence.</p>
+    <p>You do not need to have all the answers before you take the first step. You only need to begin.</p>
+    <p><strong>Depression is treatable. You are not alone. And the fact that you are reading this — that counts for something.</strong></p>
+  </div>
+
+  <div class="divider">━━━━━━━━━━━━━━━━━━━━━━━</div>
+
+  <p><em>I am Afreen — Pharmacist, Assistant Professor, Health Writer. Writing about Depression and Hypertension in English, Hindi and Hinglish.</em><br>
+  <a href="https://afreenpharmacist.github.io" style="color: var(--gold);">afreenpharmacist.github.io</a></p>
+
+  <div class="tags">
+    <span>#MentalHealth</span><span>#Depression</span><span>#DepressionAwareness</span>
+    <span>#PharmacistWrites</span><span>#IndianMentalHealth</span><span>#HealthEducation</span>
+    <span>#SelfCare</span><span>#MentalWellness</span><span>#PharmacistAfreen</span>
+  </div>
+
+  <a class="back-link" href="index.html">← Back to Blog</a>
+
+</div>
+
+<footer>
+  © 2026 Afreen — The Licensed Pharmacist &nbsp;|&nbsp; afreenpharmacist.github.io
+</footer>
+
+</body>
+</html>
